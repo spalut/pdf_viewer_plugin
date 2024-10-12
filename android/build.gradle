@@ -1,4 +1,4 @@
-group 'dev.britto.pdf_viewer_plugin'
+group 'dev.spalut.pdf_viewer_plugin'
 version '1.0'
 
 buildscript {
@@ -23,6 +23,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
+
+    namespace 'dev.spalut.pdf_viewer_plugin'
 
     defaultConfig {
         minSdkVersion 16
